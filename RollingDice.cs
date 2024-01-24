@@ -18,7 +18,7 @@ namespace Mission_2
                 int roll1 = random.Next(1, 7);
                 int roll2 = random.Next(1, 7);
                 int sum = roll1 + roll2;
-                sums[sum - 2]++; // Increment the count for this sum
+                sums[sum - 2]++;
             }
 
             return sums;
